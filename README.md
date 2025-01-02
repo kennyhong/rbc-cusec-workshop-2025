@@ -3,7 +3,9 @@
 ## Objective
 
 The objective of this workshop/challenge is to see the benefits... and possibly detriments... of using AI-powered coding assitants such as GitHub Co-Pilot. 
+
 There are three challenges in three different coding languages, you don't have to know the languages since the coding assistant will be doing **ALL** of the work INCLUDING minor changes. 
+
 For each challenge, you are tasked with prompting GitHub Co-Pilot to do the work for you and you cannot change anything in anyway unless it is done through prompts.
 
 ## RULES
