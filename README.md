@@ -28,6 +28,11 @@ You may **ONLY** use GitHub Co-Pilot to generate and fix code. You cannot manual
 - [Online Java IDE - JDoodle](https://www.jdoodle.com/online-java-compiler-ide)
 - Pre installed on macs
 
-### Node
+### React App
+- node -v `v20.5.1`
+- npm -v `9.8.0`
+- VS Code [extensions](https://code.visualstudio.com/docs/editor/extension-marketplace):
+   1. GitHub Copilot
+   2. GitHub Copilot Chat
 
 ### Python
