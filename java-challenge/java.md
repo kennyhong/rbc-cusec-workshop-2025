@@ -18,7 +18,7 @@ Create a function that reads in the csv file into a collection of the recently c
 Within that function, print the following output in the console:
 
 ```
-Number of stocks in collection: ###
+Number of stocks in list: 189
 ```
 
 ## Task 3
@@ -26,21 +26,42 @@ Create a function that calculates the **performance** of stocks (if you don't kn
 Create another function that determines the **Top 5** most performing stock within that collection and print it in the console. Here's an example of what it should look like:
 
 ```
-1. STK     Performance: +XX%
-2. STK     Performance: +XX%
-3. STK     Performance: +XX%
-4. STK     Performance: +XX%
-5. STK     Performance: +XX%
+Top 5 Performing Stocks:
+1.	Name: WDC		Performance: +2.50%
+2.	Name: EL		Performance: +2.69%
+3.	Name: LVS		Performance: +2.76%
+4.	Name: BIDU		Performance: +2.99%
+5.	Name: BABA		Performance: +3.82%
 ```
 
 If you want you can also print out the 5 most underperforming stocks within the collection as well!
 
 ```
-1. STK     Performance: -XX%
-2. STK     Performance: -XX%
-3. STK     Performance: -XX%
-4. STK     Performance: -XX%
-5. STK     Performance: -XX%
+Worst 5 Performing Stocks:
+1.	Name: TSLA		Performance: -7.15%
+2.	Name: NVDA		Performance: -6.32%
+3.	Name: NVDA		Performance: -6.32%
+4.	Name: COIN		Performance: -5.36%
+5.	Name: NFLX		Performance: -3.08%
 ```
 
 This task is flexible in the sense that you are free to determine the top 5/worst 5 however you like, as long as you **ONLY** use GitHub co-pilot!
+
+Final Output should look like this:
+
+```
+Number of stocks in list: 189
+Top 5 Performing Stocks:
+1.	Name: WDC		Performance: +2.50%
+2.	Name: EL		Performance: +2.69%
+3.	Name: LVS		Performance: +2.76%
+4.	Name: BIDU		Performance: +2.99%
+5.	Name: BABA		Performance: +3.82%
+
+Worst 5 Performing Stocks:
+1.	Name: TSLA		Performance: -7.15%
+2.	Name: NVDA		Performance: -6.32%
+3.	Name: NVDA		Performance: -6.32%
+4.	Name: COIN		Performance: -5.36%
+5.	Name: NFLX		Performance: -3.08%
+```
