@@ -1,4 +1,4 @@
-# Java Challenge (5-15 minutes)
+# Java Challenge (2-15 minutes)
 
 In this challenge, you will be creating a simple application that will read in a csv file of stocks from a **two year period** and performing simple tasks, **only** using **GitHub Co-Pilot**.
 
