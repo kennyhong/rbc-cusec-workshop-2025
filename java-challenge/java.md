@@ -22,7 +22,7 @@ Number of stocks in list: 189
 ```
 
 ## Task 3
-Create a function that calculates the **performance** of stocks (if you don't know the formula... try asking co-pilot! You'll have all the information necessary to calculate it).
+Create a function that calculates the **performance** of stocks (if you don't know the formula... honestly... Co-Pilot will do it for you).
 Create another function that determines the **Top 5** most performing stock within that collection and print it in the console. Here's an example of what it should look like:
 
 ```
