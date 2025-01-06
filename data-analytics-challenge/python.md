@@ -21,6 +21,8 @@ Transactions involving merchants with "Ltd" in their name were slightly riskier,
 
 # important hints: Set a random seed for reproducibility of 42 need to be use to maintain consistent so your answer would be always the same.
 
+in python <strong> import numpy as np /  np.random.seed(42)</strong>
+
 ## Challenge 2 Text parsing most frequent use words
 
 identify the most frequently used keywords in the chat messages.
