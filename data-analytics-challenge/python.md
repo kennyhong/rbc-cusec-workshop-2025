@@ -13,7 +13,7 @@ High Transaction Amount
 Transactions with amounts greater than $3000 were marked as fraudulent. These transactions represent a clear risk due to their high value.
 Transaction Type:
 
-Transactions of type "??????" were more likely to be marked as fraudulent. Specifically, a 50% chance of being fraudulent was assigned to transfers to simulate risky behavior.
+Choose between those Transactions of type (refer from CSV) "Purchase,Payment,Withdrawal,Transfer" only one is more likely to be marked as fraudulent (You have to determine which one is from Business stand point). Specifically, a 50% chance of being fraudulent was assigned to transfers to simulate risky behavior.
 (No hints you have to figure out which transactions type will most likely be use in bank for fraudulent activities)
 
 Merchant Name:
