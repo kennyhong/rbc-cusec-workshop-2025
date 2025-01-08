@@ -38,3 +38,5 @@ You may **ONLY** use GitHub Co-Pilot to generate and fix code. You cannot manual
    - Serve the app and make changes directly here: https://codesandbox.io/p/github/eharason/cusec-react/main
 
 ### Python
+
+https://python-fiddle.com/
