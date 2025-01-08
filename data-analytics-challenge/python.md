@@ -1,4 +1,19 @@
-# DATA Analytics challenge 
+# Data Analytics Challenge 
+
+## Objective
+In this challenge, you will using Co-Pilot to write a program that will perform tasks to analyze "transaction data". Co-Pilot doesn't do deep analytics, however it can help you generate code in the language you wish to do the analytics for you!
+
+## RULES
+
+You may **ONLY** use GitHub Co-Pilot to generate and fix code. You cannot manually create or fix code. If the response of GitHub Co-Pilot is not what you want, use prompts to correct your code.
+
+For this challenge, we suggest using Python for it's ease of use. However, as long as the output is correct, feel free to do this in any language you like since Co-Pilot will just generate the code for you to do the analytics.
+
+## Challenges
+
+### Challenges 1: Fraud Detection
+
+In this challenge, you will be asking Co-Pilot to write code that will mark fraudulent transactions base on the following rules:
 
 In this challenge you will have 2 types of data in CSV
 the first challenge is Fraud transactions you need to detected how many Fraud transaction. The second is a text parsing challenge we need to find the most frequently use words.
