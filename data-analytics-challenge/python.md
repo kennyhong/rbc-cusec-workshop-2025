@@ -67,7 +67,21 @@ Your program should consider the following to detect fraudulent activity:
  
 
 For the result, I want the number of potential fraudulent transactions. Ask the prompt to print the list and the count of the potential fraudulent transactions.
- 
+
+Example how it should look like:
+```
+Number of fraudulent transactions: XX
+List of fraudulent transactions:
+   Transaction_ID      Account_Number  Transaction_Amount Transaction_Type  \
+0        TXN00001  DTXC92839887952182             9999.99         Purchase   
+1        TXN00018  DTXC92839887952182             9999.99         Purchase   
+9        TXN00021  DTXC92839887952182             9999.99         Transfer   
+11       TXN00032  DTXC92839887952182             9999.99       Withdrawal   
+12       TXN00015  DTXC92839887952182             9999.99          Payment   
+13       TXN00019  DTXC92839887952182             9999.99         Purchase   
+17       TXN00030  DTXC92839887952182             9999.99       Withdrawal   
+19       TXN00061  DTXC92839887952182             9999.99         Purchase   
+```
 
 ### Challenge 2: Text parsing most frequently used words
 
@@ -81,6 +95,19 @@ Print the following:
 
 2. The longest word in the log
 
+Example how it should look like
+```
+Top 10 common keywords:
+a: 9
+b: 7
+c: 5
+d: 2
+e: 2
+......
+
+Longest keyword:
+XXXXXX (6 characters)
+```
 
 # RESOURCES
 
