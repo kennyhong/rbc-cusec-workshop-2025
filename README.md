@@ -28,6 +28,13 @@ You may **ONLY** use GitHub Co-Pilot to generate and fix code. You cannot manual
 - [Online Java IDE - JDoodle](https://www.jdoodle.com/online-java-compiler-ide)
 - Pre installed on macs
 
-### Node
+### React App
+1. Option 1, Local Development
+   - Install [Node.js and npm](https://nodejs.org/en/download)
+      - Choose `v20.18.1 (LTS)` from the dropdown, as well as your OS and method
+      - Choose `with npm`
+
+2. Option 2, Develop in the browser
+   - Serve the app and make changes directly here: https://codesandbox.io/p/github/eharason/cusec-react/main
 
 ### Python
