@@ -1,55 +1,89 @@
-# Data Analytics Challenge 
+# Data Analytics Challenge
+
+ 
 
 ## Objective
-In this challenge, you will using Co-Pilot to write a program that will perform tasks to analyze "transaction data". Co-Pilot doesn't do deep analytics, however it can help you generate code in the language you wish to do the analytics for you!
+
+In this challenge, you will be using Co-Pilot to write a program that will perform tasks to analyze 1. transaction data, and 2. chat (text) data. Co-Pilot doesn't do deep analytics, however it can help you generate code in the language you wish to do the analytics for you!
+
+ 
 
 ## RULES
 
+ 
+
 You may **ONLY** use GitHub Co-Pilot to generate and fix code. You cannot manually create or fix code. If the response of GitHub Co-Pilot is not what you want, use prompts to correct your code.
 
-For this challenge, we suggest using Python for it's ease of use. However, as long as the output is correct, feel free to do this in any language you like since Co-Pilot will just generate the code for you to do the analytics.
+ 
+
+For this challenge, we suggest using Python for its ease of use. However, as long as the output is correct, feel free to do this in any language you like since Co-Pilot will just generate the code for you to do the analytics.
+
+ 
 
 ## Challenges
 
-### Challenges 1: Fraud Detection
+ 
 
-In this challenge, you will be asking Co-Pilot to write code that will mark fraudulent transactions base on the following rules:
+There are two challenges for Data Analytics.
 
-In this challenge you will have 2 types of data in CSV
-the first challenge is Fraud transactions you need to detected how many Fraud transaction. The second is a text parsing challenge we need to find the most frequently use words.
+The first one will handle detecting fraudulent transactions, while the second is to leverage text parsing to find the most frequently used words.
 
-# RULES
+ 
 
-Use GitHub Co-Pilot to generate your code/answer i suggest you use Python for ease but you can use any other languages if you thing it can do the job. Since Copilot do not do deep analytics it would generate you the code for you.
+### Challenge 1: Fraud Detection
 
-## Challenge 1 Fraud detection Rules
+ 
 
-1-High Transaction Amount
-Transactions with amounts greater than $3000 were marked as fraudulent. These transactions represent a clear risk due to their high value.
+Using this CSV `Reduced_Simple_RBC_Transactions_Without_Fraudulent.csv`, please ask Co-Pilot to write code that will mark all fraudulent transactions.
 
-2-Transaction Type:
-Choose between those Transactions of type (refer from CSV) "Purchase,Payment,Withdrawal,Transfer" only one is more likely to be marked as fraudulent (You have to determine which one is from Business stand point). Specifically, a 50% chance of being fraudulent was assigned to transfers to simulate risky behavior.
-(No hints you have to figure out which transactions type will most likely be use in bank for fraudulent activities)
+ 
 
-3-Merchant Name:
-Transactions involving merchants with "Ltd" in their name were slightly riskier, with a 30% chance of being marked as fraudulent. This simulates merchants that might have a history of fraud or are unusual.
+Since we want consistent results, ask Co-Pilot to set the random seed to 42.
 
-For the result i want the number of Fraud transaction and ask the prompt to print the list.
+ 
 
-# important hints: Set a random seed for reproducibility of 42 need to be use to maintain consistent so your answer would be always the same.
+Your program should consider the following to detect fraudulent activity:
+
+1. High Transaction Amount
+
+   - Transactions with amounts greater than $3000 were marked as fraudulent.
+
+ 
+
+2. Transaction Type
+
+   - Out of the following transaction types: `"Purchase,Payment,Withdrawal,Transfer"`. Transfer is considered the most risky transaction type.
+
+   - Let's say 50% of `Transfer` transaction types are fraudulent.
+
+ 
+
+3. Merchant Name
+
+   - Transactions involving merchants with `"Ltd"` in their name are riskier
+
+   - Let;s say 30% of merchants with `Ltd` in their name is fraudlent.
+
+ 
+
+For the result, I want the number of potential fraudulent transactions. Ask the prompt to print the list and the count of the potential fraudulent transactions.
+ 
+
+### Challenge 2: Text parsing most frequently used words
+
+Using this CSV `chat_logs.csv`, identify the most frequently used keywords in the chat messages.
+
+ 
+
+Print the following:
+
+1. The top 10 most used words
+
+2. The longest word in the log
 
 
-in python **import numpy as np /  np.random.seed(42)** use inside your prompt to tell copilot to add it in your code
+# RESOURCES
 
-## Challenge 2 Text parsing most frequent use words
+- https://python-fiddle.com/
 
-identify the most frequently used keywords in the chat messages.
-
-For the result i want the top 10
-and the longest keyword use 
-
-# REQUIREMENTS
-
-python install latest version
-
-i suggest going to https://python-fiddle.com/ its a online IDE that can run all your python code without hassle to import missing libs
+   * NOTE: When you upload a file the path is ./FILENAME.EXT
