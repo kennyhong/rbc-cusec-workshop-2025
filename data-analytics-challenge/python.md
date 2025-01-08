@@ -9,27 +9,29 @@ Use GitHub Co-Pilot to generate your code/answer i suggest you use Python for ea
 
 ## Challenge 1 Fraud detection Rules
 
-High Transaction Amount
+1-High Transaction Amount
 Transactions with amounts greater than $3000 were marked as fraudulent. These transactions represent a clear risk due to their high value.
-Transaction Type:
 
+2-Transaction Type:
 Choose between those Transactions of type (refer from CSV) "Purchase,Payment,Withdrawal,Transfer" only one is more likely to be marked as fraudulent (You have to determine which one is from Business stand point). Specifically, a 50% chance of being fraudulent was assigned to transfers to simulate risky behavior.
 (No hints you have to figure out which transactions type will most likely be use in bank for fraudulent activities)
 
-Merchant Name:
+3-Merchant Name:
 Transactions involving merchants with "Ltd" in their name were slightly riskier, with a 30% chance of being marked as fraudulent. This simulates merchants that might have a history of fraud or are unusual.
+
+For the result i want the number of Fraud transaction and ask the prompt to print the list.
 
 # important hints: Set a random seed for reproducibility of 42 need to be use to maintain consistent so your answer would be always the same.
 
-in python **import numpy as np /  np.random.seed(42)**
+
+in python **import numpy as np /  np.random.seed(42)** use inside your prompt to tell copilot to add it in your code
 
 ## Challenge 2 Text parsing most frequent use words
 
 identify the most frequently used keywords in the chat messages.
 
-i want the top 10
-
-for extra i also want the longest keyword use 
+For the result i want the top 10
+and the longest keyword use 
 
 # REQUIREMENTS
 
