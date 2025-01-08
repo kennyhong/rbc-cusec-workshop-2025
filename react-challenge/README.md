@@ -33,7 +33,7 @@ Once installed, open the [GitHub Copilot Chat](https://learn.microsoft.com/en-us
 
 You can also run the code in the browser at https://codesandbox.io/p/github/eharason/cusec-react/main.
 
-In another tab, navigate to https://github.com/kennyhong/rbc-cusec-workshop-2025/blob/main/react-challenge
+In another tab, navigate to https://github.com/kennyhong/rbc-cusec-workshop-2025/tree/master/react-challenge
    1. Click the icon (beside the search bar) to `Chat with Copilot`
    2. Ask your questions here!
 
